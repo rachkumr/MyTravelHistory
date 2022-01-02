@@ -1,2 +1,2 @@
 # MyTravelHistory
-Location updated
+Location updation
