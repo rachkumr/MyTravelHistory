@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DA048A3C-7B03-45EC-A0C0-F62EB84571F6"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C621F47-4258-4058-A4D5-BE88B0DB6967"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelHistory/Module/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "GetNearbyRestaturantDetailsAPICall(latitude:longitude:onSuccess:onFailure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C621F47-4258-4058-A4D5-BE88B0DB6967 - 49366e372343ad7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelHistory.HomeViewModel.GetNearbyRestaturantDetailsAPICall(latitude: Swift.Double, longitude: Swift.Double, onSuccess: (Swift.String, Swift.Bool) -&gt; (), onFailure: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "TravelHistory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnuvarthandeivendiran/Development/Task%20interview/MSYS/LocationApp/TravelHistory/TravelHistory/Module/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "473">
+               </Location>
+               <Location
+                  uuid = "4C621F47-4258-4058-A4D5-BE88B0DB6967 - 79eb8017e6ad43aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.String, SwiftyJSON.JSON) -&gt; () in TravelHistory.HomeViewModel.GetNearbyRestaturantDetailsAPICall(latitude: Swift.Double, longitude: Swift.Double, onSuccess: (Swift.String, Swift.Bool) -&gt; (), onFailure: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "TravelHistory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vishnuvarthandeivendiran/Development/Task%20interview/MSYS/LocationApp/TravelHistory/TravelHistory/Module/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "590">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

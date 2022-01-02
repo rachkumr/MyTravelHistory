@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cVY-ot-GC7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LocationViewController-->
+        <scene sceneID="3SV-UP-sP4">
+            <objects>
+                <viewController id="Etd-Qs-xYj" userLabel="LocationViewController" customClass="LocationViewController" customModule="TravelHistory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rTg-wP-ALn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BST-pZ-RnG">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Etd-Qs-xYj" id="HyA-nf-iPJ"/>
+                                    <outlet property="delegate" destination="Etd-Qs-xYj" id="c7h-O6-sG5"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="H93-MP-bNm"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BST-pZ-RnG" firstAttribute="leading" secondItem="rTg-wP-ALn" secondAttribute="leading" id="9cw-xo-2S2"/>
+                            <constraint firstItem="H93-MP-bNm" firstAttribute="bottom" secondItem="BST-pZ-RnG" secondAttribute="bottom" id="SOE-nC-25K"/>
+                            <constraint firstItem="BST-pZ-RnG" firstAttribute="top" secondItem="H93-MP-bNm" secondAttribute="top" id="g0j-hx-Vy4"/>
+                            <constraint firstItem="H93-MP-bNm" firstAttribute="trailing" secondItem="BST-pZ-RnG" secondAttribute="trailing" id="lNZ-b2-noE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Travel History" id="sDI-2V-dSg"/>
+                    <connections>
+                        <outlet property="locationTableView" destination="BST-pZ-RnG" id="3SC-u7-Wcj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IXY-4g-fah" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1659.4202898550725" y="359.59821428571428"/>
+        </scene>
+        <!--Location-->
+        <scene sceneID="wow-U9-AsA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cVY-ot-GC7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Location" image="location" id="f24-pU-fqZ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vZH-MC-4TD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Etd-Qs-xYj" kind="relationship" relationship="rootViewController" id="MO3-SR-YhN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PYI-iT-huQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.27536231884062" y="359.59821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="location" width="32" height="32"/>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
